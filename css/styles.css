@@ -326,7 +326,7 @@ li a.active, li a:hover{
 
     width: 100%;
     height: 160px;
-    background-image: url(/img/2pexels-pușcaș-adryan-12954317.jpg);
+    background-image: url(https://images.pexels.com/photos/839465/pexels-photo-839465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-position: center;
     color: #f3f3f3;
@@ -416,7 +416,7 @@ li a.active, li a:hover{
       justify-content: center; /* Centra horizontalmente los cuadros de cada semana */
       flex-wrap: wrap; /* Permite que los cuadros se envuelvan cuando el espacio es insuficiente */
       gap: 20px; /* Agrega un espacio de 20px entre los cuadros */
-      
+      color: #000090;
     }
 
   .servicio {
@@ -466,7 +466,7 @@ li a.active, li a:hover{
 
     width: 100%;
     height: 160px;
-    background-image: url(/img/pexels-junior-teixeira-2072060.jpg);
+    background-image: url(https://images.pexels.com/photos/3605247/pexels-photo-3605247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -597,7 +597,7 @@ margin-right: 80px;
 
     width: 100%;
     height: 160px;
-    background-image: url(/img/pexels-bich-tran-2481177XD.jpg);
+    background-image: url(https://images.pexels.com/photos/1181499/pexels-photo-1181499.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -776,7 +776,7 @@ margin-right: 80px;
 
   width: 100%;
   height: 160px;
-  background-image: url(/img/pexels-olia-danilevich-4974914.jpg);
+  background-image: url(https://images.pexels.com/photos/1181278/pexels-photo-1181278.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-position: center;
   position: absolute;
@@ -926,7 +926,7 @@ margin-right: 80px;
 
   width: 100%;
   height: 160px;
-  background-image: url(/img/pexels-sharad-kachhi-3937174.jpg);
+  background-image: url(https://images.pexels.com/photos/7114/laptop-mobile.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-position: center;
   position: absolute;

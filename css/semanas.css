@@ -2,6 +2,40 @@ body{
     font-family: 'Montserrat', sans-serif;
  }
 
+ .presentacion_1 {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 20px;
+   width: 100%;
+     height: 100%;
+      top: 0;
+      right: 0;
+      position: absolute;
+      justify-content: center;
+}
+
+.titulo {
+   font-size: 2em;
+   color: #333; /* Cambia el color según tus preferencias */
+}
+
+.nombre {
+   font-size: 1.5em;
+   color: #555; /* Cambia el color según tus preferencias */
+}
+
+.fondoprincipal {
+   width: 100%;
+}
+
+.fondoprincipal img {
+   width: 100%;
+   height: auto;
+}
+
+
+
 video{
 
     width: 100%;
@@ -10,6 +44,7 @@ video{
     height: 400px;
   
    }
+
   
    .presentacion{
   

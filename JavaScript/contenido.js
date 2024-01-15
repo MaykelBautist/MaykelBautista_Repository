@@ -21,30 +21,79 @@ miParrafo.innerHTML ="Conjunto de estándares y tecnologías web abiertas diseñ
 var miParrafo = document.getElementById("sem3");
 
 // Cambia el contenido del párrafo usando innerHTML
-miParrafo.innerHTML ="Componentes esenciales en el desarrollo web. HTML se utiliza para estructurar el contenido, CSS lo estiliza y da diseño, mientras que los Frameworks CSS ofrecen conjuntos de estilos predefinidos que agilizan la creación de páginas web atractivas y coherentes.";
+miParrafo.innerHTML ="Componentes esenciales en el desarrollo web. HTML se utiliza para estructurar el contenido, CSS lo estiliza y da diseño, mientras que los Frameworks CSS ofrecen conjuntos de estilos predefinidos.";
 // SEMANAS - SEMANA 4
 var miParrafo = document.getElementById("sem4");
 
 // Cambia el contenido del párrafo usando innerHTML
-miParrafo.innerHTML ="ECMAScript (JavaScript) para crear interacción y funcionalidad en la parte visible de las aplicaciones web. ECMAScript es esencial para programar la lógica del lado del cliente, manipular elementos HTML y gestionar eventos en la interfaz de usuario.";
+miParrafo.innerHTML ="ECMAScript (JavaScript) para crear interacción y funcionalidad en la parte visible de las aplicaciones web. ECMAScript es esencial para programar la lógica del lado del cliente, manipular elementos HTML y gestionar evento.";
 
 // SEMANAS - SEMANA 5
 var miParrafo = document.getElementById("sem5");
 
 // Cambia el contenido del párrafo usando innerHTML
-miParrafo.innerHTML ="React es una popular biblioteca de JavaScript utilizada en el desarrollo web para la creación de interfaces de usuario interactivas y dinámicas. Desarrollada por Facebook, React se enfoca en la construcción de componentes reutilizables que representan partes específicas de una página web.";
+miParrafo.innerHTML ="React es una popular biblioteca de JavaScript utilizada en el desarrollo web para la creación de interfaces de usuario interactivas y dinámicas. React se enfoca en la construcción de componentes reutilizables.";
 
 // SEMANAS - SEMANA 6
 var miParrafo = document.getElementById("sem6");
 
 // Cambia el contenido del párrafo usando innerHTML
-miParrafo.innerHTML ="Los eventos permiten a los desarrolladores responder a las acciones del usuario, como hacer clic en un botón o mover el ratón. Las condiciones permiten tomar decisiones basadas en datos y, finalmente, los bucles permiten repetir acciones o procesar datos de manera eficiente. ";
+miParrafo.innerHTML ="Los eventos permiten a los desarrolladores responder a las acciones del usuario. Las condiciones permiten tomar decisiones basadas en datos y, finalmente, los bucles permiten repetir acciones o procesar datos de manera eficiente. ";
 
-// SEMANAS - SEMANA 6
+// SEMANAS - SEMANA 7
 var miParrafo = document.getElementById("sem7");
 
 // Cambia el contenido del párrafo usando innerHTML
 miParrafo.innerHTML ="Los Hooks en React son una característica fundamental introducida en React 16.8 que permite a los desarrolladores utilizar el estado y otras características de React en componentes funcionales, en lugar de componentes de clase. ";
+
+// SEMANAS - SEMANA 9
+var miParrafo = document.getElementById("sem9");
+
+// Cambia el contenido del párrafo usando innerHTML
+miParrafo.innerHTML ="Next.js combina la flexibilidad de renderizado en el cliente (CSR) y servidor (SSR), ofreciendo optimización adicional mediante el uso de TypeScript";
+
+// SEMANAS - SEMANA 10
+var miParrafo = document.getElementById("sem10");
+
+// Cambia el contenido del párrafo usando innerHTML
+miParrafo.innerHTML ="Next.js utiliza generación estática y regeneración estática para pre-renderizar páginas, asegurando tiempos de carga rápidos y contenidos actualizados automáticamente.";
+
+// SEMANAS - SEMANA 11
+var miParrafo = document.getElementById("sem11");
+
+// Cambia el contenido del párrafo usando innerHTML
+miParrafo.innerHTML ="Server Side Props' para pre-renderizar datos en el servidor antes de enviar la página al cliente, optimizando rendimiento y experiencia";
+
+// SEMANAS - SEMANA 12
+var miParrafo = document.getElementById("sem12");
+
+// Cambia el contenido del párrafo usando innerHTML
+miParrafo.innerHTML ="En desarrollo backend, aplico conocimientos robustos para construir y optimizar servidores, bases de datos y lógica de aplicaciones, garantizando funcionalidades eficientes y escalabilidad.";
+
+// SEMANAS - SEMANA 13
+var miParrafo = document.getElementById("sem13");
+
+// Cambia el contenido del párrafo usando innerHTML
+miParrafo.innerHTML ="Al desarrollar API Rest con Spring, estructuro endpoints, gestiono datos y aseguro comunicaciones eficientes, siguiendo prácticas estándar y maximizando la interoperabilidad.";
+
+// SEMANAS - SEMANA 14
+var miParrafo = document.getElementById("sem14");
+
+// Cambia el contenido del párrafo usando innerHTML
+miParrafo.innerHTML ="El registro de microservicios en Eureka permite la localización dinámica y la comunicación entre servicios, garantizando escalabilidad, resiliencia y gestión eficiente de la arquitectura.";
+
+// SEMANAS - SEMANA 15
+var miParrafo = document.getElementById("sem15");
+
+// Cambia el contenido del párrafo usando innerHTML
+miParrafo.innerHTML ="El consumo de un microservicio implica acceder y utilizar funcionalidades específicas del servicio, asegurando interacción eficiente, comunicación segura y respuesta adecuada según requerimientos.";
+
+// SEMANAS - SEMANA 16
+var miParrafo = document.getElementById("sem16");
+
+// Cambia el contenido del párrafo usando innerHTML
+miParrafo.innerHTML ="Concluyendo el curso, hemos navegado a través de profundas temáticas. ¡Gracias por ser parte de este viaje educativo! Ahora, ¡a aplicar lo aprendido en el mundo real!";
+
 
 //SOBRE MIII
 
@@ -52,7 +101,7 @@ miParrafo.innerHTML ="Los Hooks en React son una característica fundamental int
 var miParrafo = document.getElementById("poco_yo");
 
 // Cambia el contenido del párrafo usando innerHTML
-miParrafo.innerHTML ="Maykel Bautista es un estudiante de Ingeniería de Sistemas en la Universidad Nacional del Centro del Perú (UNCP) ubicada en la ciudad de Huancayo. Actualmente, se encuentra en su noveno semestre, lo que sugiere que ha avanzado significativamente en su carrera académica.";
+miParrafo.innerHTML ="Me llamo Maykel Bautista soy un estudiante de Ingeniería de Sistemas en la Universidad Nacional del Centro del Perú (UNCP) ubicada en la ciudad de Huancayo. Actualmente, me encuentro en su noveno semestre, lo que puedo decir que he avanzado significativamente en la carrera académica.";
 
 var miParrafo = document.getElementById("pocoyo");
 
@@ -66,24 +115,24 @@ miParrafo.innerHTML ="Como residente de Manzanares, Concepción, es parte de una
 
 var miParrafo = document.getElementById("conclusion1");
 
-miParrafo.innerHTML ="Las tecnologías web engloban un conjunto diverso de herramientas y técnicas que permiten la creación y el funcionamiento de aplicaciones y sitios web en Internet. Desde lenguajes de marcado hasta programación del lado del cliente y del servidor, estas tecnologías son esenciales para la construcción de soluciones web efectivas y seguras en la era digital.";
+miParrafo.innerHTML ="";
 
 var miParrafo = document.getElementById("Conclusion2");
 
-miParrafo.innerHTML ="En la introducción a React, es esencial comprender que React es una biblioteca de JavaScript ampliamente utilizada para la creación de interfaces de usuario interactivas y reactivas en aplicaciones web. Se basa en el concepto de componentes reutilizables y se enfoca en mejorar la eficiencia y la legibilidad del código. ";
+miParrafo.innerHTML =" ";
 
 var miParrafo = document.getElementById("Conclusion3");
 
-miParrafo.innerHTML ="HTML y CSS constituye la base del desarrollo web, permitiendo la creación de páginas web con una estructura sólida y un diseño atractivo. Además, las librerías de JavaScript, como jQuery, React, Angular y Vue.js, añaden un nivel adicional de interactividad y funcionalidad a las aplicaciones web. La colaboración de estas tecnologías es esencial para el desarrollo de sitios web modernos y efectivos, mejorando la experiencia del usuario y brindando a los desarrolladores herramientas poderosas para crear interfaces dinámicas y atractivas. ";
+miParrafo.innerHTML ="";
 
 var miParrafo = document.getElementById("Conclusion4");
 
-miParrafo.innerHTML ="En el desarrollo FrontEnd con ECMAScript, se emplean los estándares de JavaScript para crear interfaces de usuario dinámicas y atractivas en aplicaciones web. A través de la utilización de ECMAScript, se pueden aprovechar las últimas características y mejoras del lenguaje, lo que permite a los desarrolladores crear experiencias de usuario más interactivas y funcionales.";
+miParrafo.innerHTML ="";
 
 var miParrafo = document.getElementById("Conclusion5");
 
-miParrafo.innerHTML ="React se ha convertido en una herramienta esencial en el desarrollo web moderno al simplificar la creación de interfaces de usuario interactivas, reactivas y eficientes. Su enfoque en componentes reutilizables y su capacidad para gestionar actualizaciones de manera eficiente han revolucionado la forma en que se construyen aplicaciones web, lo que lo convierte en una elección popular entre los desarrolladores para crear experiencias de usuario dinámicas y efectivas. El ecosistema React sigue creciendo y evolucionando, lo que lo convierte en una tecnología clave en el panorama del desarrollo FrontEnd.";
+miParrafo.innerHTML ="";
 
 
 var miParrafo = document.getElementById("conclusion6");
-miParrafo.innerHTML ="Los eventos permiten la interacción del usuario, las condiciones habilitan la toma de decisiones, y los bucles posibilitan la repetición eficiente de acciones en JavaScript. Combinados, estos conceptos forman la base de la programación dinámica, la automatización de tareas y la creación de experiencias interactivas en aplicaciones web y programas en general. Un conocimiento sólido de estos elementos es esencial para desarrolladores que desean crear aplicaciones web efectivas y receptivas.";
+miParrafo.innerHTML ="";

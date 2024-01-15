@@ -96,6 +96,9 @@ video{
   
     }
 
+    .sobremi_piedepag{
+      font-weight:600;
+    }
     /* SECCION CURRICULUM */
 .curriculum{
    background-color: #1e2326;
@@ -293,3 +296,57 @@ video{
    }
    
 }
+
+
+.about {
+   display: grid;
+   grid-template-columns: repeat(10, 1fr);
+   width: 100vw;
+   align-items: center;
+   
+ }
+ 
+ .about img {
+   width: 100%;
+   grid-column: 1/5;
+ }
+ 
+ .about-info {
+   grid-column: 5/10;
+   padding: 3em;
+ }
+ 
+ .about-info h2 {
+   font-size: 2em;
+   color: #5662be;
+   font-size: 40px;
+ }
+ 
+ .divider {
+   height: 4px;
+   width: 60px;
+   background-color: #789;
+   margin-top: 5px;
+   margin-bottom: 2em;
+ }
+ 
+ .about p {
+   margin-bottom: 1em;
+   font-size: 20px;
+   font-weight: 500;
+   text-align: justify;
+   font-weight: 600;
+ }
+
+ 
+ @media (max-width: 900px) {
+     .about {
+       grid-template-columns: 1fr;
+     }
+     .about img {
+         grid-column: auto;
+       }
+   }
+  
+   
+ 

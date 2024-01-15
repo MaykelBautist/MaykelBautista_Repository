@@ -265,10 +265,16 @@ li a.active, li a:hover{
 
   .contenedor .miparrafo{
 
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: 600;
+    
   }
-  
+  .contenedor .miparrafo1{
+    text-align: justify;
+    font-weight: bold;
+    color: #2c3e50;
+    
+  }
   .derecha {
     flex: 1; /* La mitad derecha del contenedor */
     text-align: center; /* Centra la imagen horizontalmente */
@@ -394,6 +400,9 @@ li a.active, li a:hover{
       #servicios .fila .servicio p {
           font-size: 14px;
           line-height: 22px;
+          text-align: justify;
+          color: #000;
+          font-weight: 600;
           
           
       }
@@ -407,6 +416,7 @@ li a.active, li a:hover{
       justify-content: center; /* Centra horizontalmente los cuadros de cada semana */
       flex-wrap: wrap; /* Permite que los cuadros se envuelvan cuando el espacio es insuficiente */
       gap: 20px; /* Agrega un espacio de 20px entre los cuadros */
+      
     }
 
   .servicio {
@@ -467,6 +477,9 @@ li a.active, li a:hover{
 
 
 /* Estilos para la sección Hablamos un poco de mi */
+
+
+
 #poco_de_mi {
   max-width: 1100px;
   margin: auto;
@@ -474,6 +487,8 @@ li a.active, li a:hover{
   color: #111135;
   display: flex;
   padding-top: 200px;
+  font-weight: bold;
+  text-align: justify;
 }
 
 #poco_de_mi .contenedor-foto {
@@ -510,6 +525,8 @@ margin-right: 80px;
   text-transform: uppercase;
   margin-bottom: 20px;
   letter-spacing: 1px;
+  font-weight: 600;
+  color: #2c3e50;
 }
 
 #poco_de_mi .poco_de_mi p {
@@ -660,44 +677,56 @@ margin-right: 80px;
 
 /* SECCION PORTFOLIO */
 
-.portfolio{
-  background-color: #252A2E;
+.portfolio {
+  background-color: #fff;
   color: #fff;
-  padding: 50px 20px;
+  padding: 50px 0; /* Remove padding from left and right to extend to the edges */
+  margin: 0; /* Remove margin to ensure it covers the full width */
 }
-.portfolio .contenido-seccion{
-  max-width: 1100px;
+
+.portfolio .contenido-seccion {
+  max-width: 100%;
   margin: auto;
 }
-.portfolio h2{
+
+.portfolio h2 {
   font-size: 48px;
   font-family: 'Righteous';
   text-align: center;
   padding: 20px 0;
 }
-.portfolio .galeria{
+
+.portfolio .galeria {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin: 0; /* Elimina el margen para que la galería abarque toda la pantalla */
+  width: 100%; /* Asegura que la galería ocupe todo el ancho disponible */
+  box-sizing: border-box; /* Incluye el relleno y el borde en el ancho total */
+
 }
-.portfolio .galeria .proyecto{
+
+
+.portfolio .galeria .proyecto {
   position: relative;
-  max-width: 340px;
-  height: fit-content;
+  width: calc(20% - 20px); /* Calculating width for 5 projects per row with 20px margin */
   margin: 10px;
   cursor: pointer;
+  box-sizing: border-box; /* Ensure that width includes padding and border */
 }
-.portfolio .galeria .proyecto img{
+
+.portfolio .galeria .proyecto img {
   width: 100%;
   display: block;
 }
-.portfolio .galeria .proyecto .overlay{
+
+.portfolio .galeria .proyecto .overlay {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
   text-align: center;
-  background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+  background: linear-gradient(rgba(28, 182, 152, 0.8), rgba(28, 182, 152, 0.8));
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -706,16 +735,27 @@ margin-right: 80px;
   letter-spacing: 3px;
   opacity: 0;
 }
-.portfolio .galeria .proyecto .overlay h3{
+
+.portfolio .galeria .proyecto .overlay h3 {
   margin-bottom: 20px;
   transition: 1s;
 }
-.portfolio .galeria .proyecto .overlay:hover{
+
+.portfolio .galeria .proyecto .overlay:hover {
   opacity: 1;
 }
-.portfolio .galeria .proyecto .overlay:hover h3{
+
+.portfolio .galeria .proyecto .overlay:hover h3 {
   margin-bottom: 0px;
 }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 800px) {
+  .portfolio .galeria .proyecto {
+    width: 80%; /* Change to a single column for smaller screens */
+  }
+}
+
 
 /*CONCLUSION*/
 .Conclusiones{
@@ -894,93 +934,169 @@ margin-right: 80px;
 
 }
 
-/* SECCION PORTFOLIO */
-.portfolio{
-  background-color: #fff;
-  color: #fff;
-  padding: 50px 20px;
-}
-.portfolio .contenido-seccion{
-  max-width: 1200px;
-  margin: auto;
-}
 
-.portfolio .galeria{
+
+/* REFLEXION */
+/* Establece el fondo blanco en el contenedor de la sección */
+.contenido-seccion {
+  background-color: #fff;
+  padding: 20px; /* Añade espaciado interno al contenedor si es necesario */
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  gap: 20px; /* Espaciado entre elementos */
 }
-.portfolio .galeria .proyecto{
+
+/* Establece el ancho de cada proyecto para formar filas de 7 */
+.proyecto {
+  flex: 1 0 calc(14.2857% - 20px); /* 14.2857% de ancho, restando el espacio entre elementos */
   position: relative;
-  max-width: 340px;
-  height: fit-content;
-  margin: 20px;
-  cursor: pointer;
 }
-.portfolio .galeria .proyecto img{
-  width: 100%; /* Ancho inicial de la imagen */
-  display: block;
+
+/* Estilos adicionales para las imágenes y superposición */
+.proyecto img {
+  width: 100%;
+  height: auto;
+  max-width: 100%; /* Ajusta el tamaño máximo de la imagen */
+  max-height: 100%; /* Ajusta la altura máxima de la imagen */
 }
-.portfolio .galeria .proyecto .overlay{
+
+.overlay {
   position: absolute;
   top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  text-align: center;
-  background: linear-gradient(#789, #8a8a8a);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  transition: 1s;
-  font-size: 18px;
-  letter-spacing: 3px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
   opacity: 0;
+  transition: opacity 0.3s ease;
 }
-.portfolio .galeria .proyecto .overlay h3{
-  margin-bottom: 20px;
-  transition: 1s;
-  color: #252A2E;
-}
-.portfolio .galeria .proyecto .overlay:hover{
+
+.proyecto:hover .overlay {
   opacity: 1;
 }
-.portfolio .galeria .proyecto .overlay:hover h3{
-  margin-bottom: 0px;
+
+.overlay h3,
+.overlay p {
+  color: #fff;
+  margin: 0;
 }
-/* SECCION RESPONSIVE */
-@media screen and (max-width:980px){
-  nav{
-      display: none;
+
+@media (max-width: 800px) {
+  .contenido-seccion {
+      justify-content: center; /* Centra los elementos en una fila */
   }
-  .nav-responsive{
-      display: block;
-  }
-  nav.responsive{
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 75px;
-      background-color: #fff;
-      width: 180px;
-  }
-  nav.responsive ul{
-      display: block !important;
-  }
-  nav.responsive ul li{
-      border-bottom: 1px solid #fff;
-      padding: 10px 0;
+
+  .proyecto {
+      flex: 0 0 calc(50% - 20px); /* 50% de ancho en pantallas pequeñas */
   }
 }
-@media screen and (max-width:700px){
+
+/* SECCION bibliografia*/
+
+.Bibliografia{
+    
+  justify-content: center;
+  padding-top: 49px;
+  padding-left: 25px;
+  color: #f3f3f3;
+  
+   
+}
+
+.bibliografia_1{
+
+  font-size: 35px;
  
-  .portfolio .galeria{
-      display: block;
-      width: 100%;
-  }
-  .portfolio .galeria .proyecto{
-      max-width: 100%;
-  }
-  .portfolio .galeria .proyecto img{
-      width: 100%;
-  }
 }
+
+.Bibliografia{
+
+  width: 100%;
+  height: 160px;
+  background-image: url(https://images.pexels.com/photos/2115257/pexels-photo-2115257.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+
+
+}
+
+.bibliografia {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 200px;
+  max-width: 1200px;
+}
+
+.bibliografia_10 {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+.bibliografia h2 {
+  color: #2c3e50;
+
+}
+
+.bibliografia li{
+
+  font-weight: 600;
+  font-size: 16px;
+  text-align: justify;
+}
+
+/* SECCION FINAL*/
+.Final {
+  position: relative;
+  height: 300px; /* Ajusta la altura según tus necesidades */
+  background-image: url(https://images.pexels.com/photos/2148220/pexels-photo-2148220.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-position: center;
+  color: #f3f3f3;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.text {
+  text-align: center;
+  margin-bottom: 20px; /* Ajusta el margen inferior según tus necesidades */
+}
+
+.final {
+  font-size: 30px; /* Ajusta el tamaño de la fuente según tus necesidades */
+  font-weight: bold;
+}
+
+.final_1 {
+  text-align: center;
+ 
+}
+
+.final_2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.final_2 li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.final_2 li a {
+  color: #f3f3f3;
+  font-size: 20px;
+}
+
